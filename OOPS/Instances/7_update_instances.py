@@ -6,9 +6,13 @@ class Backpack:
 
 
 my_color = Backpack("Blue")
-print(my_color.color)
+your_color = Backpack("Red")
 
-print("After changing the value:")
+print(my_color.color)
+print(your_color.color)
+
+print("Changing the color:")
 my_color.color = "Green"
 
 print(my_color.color)
+print(your_color.color)
